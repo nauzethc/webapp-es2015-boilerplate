@@ -1,0 +1,38 @@
+{
+  "name": "webapp-es2015-boilerplate",
+  "author": "Nauzet Hernandez <nauzethc@gmail.com> (http://github.com/nauzethc)",
+  "version": "1.0.0",
+  "description": "ES2015 Web Application boilerplate with Webpack and Babel",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "lint": "eslint ./app/ --ext .js"
+  },
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/nauzethc/webapp-es2015-boilerplate.git"
+  },
+  "keywords": [
+    "es2015",
+    "webpack",
+    "babel",
+    "boilerplate",
+    "webapp"
+  ],
+  "license": "ISC",
+  "homepage": "http://github.com/nauzethc/webapp-es2015-boilerplate",
+  "devDependencies": {
+    "babel-eslint": "6.0.4",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.9.0",
+    "clean-webpack-plugin": "0.1.9",
+    "css-loader": "0.23.1",
+    "eslint": "2.12.0",
+    "extract-text-webpack-plugin": "1.0.1",
+    "html-webpack-plugin": "2.21.0",
+    "style-loader": "0.13.1",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1"
+  }
+}
