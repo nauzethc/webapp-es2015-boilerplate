@@ -7,7 +7,9 @@
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
-    "lint": "eslint ./app/ --ext .js"
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:js": "eslint ./app/ --ext .js",
+    "lint:css": "csslint app --quiet"
   },
   "respository": {
     "type": "git",
